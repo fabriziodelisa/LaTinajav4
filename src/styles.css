@@ -14,8 +14,6 @@
   padding-top: 2.5vw;
 }
 
-/*  Caracteristicas del body y sus hijos   */
-
 section {
   flex-direction: column;
   background-image: url("./public/multimedia/fondo2.png");

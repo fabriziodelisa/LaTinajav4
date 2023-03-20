@@ -1,9 +1,8 @@
 import "./RenderDeTextos.css";
 
-export default function RenderizarTexto(datos) {
-  const { textos } = datos;
+export default function RenderizarTexto(textos) {
   return (
-    <div>
+    <>
       {textos.map((texto, index) => (
         <div
           key={texto.id}
@@ -13,9 +12,9 @@ export default function RenderizarTexto(datos) {
         >
           <h2>{texto.titulo}</h2>
           <p>{texto.texto}</p>
-          <p>Autor: {texto.autor}</p>
+          <p className="autor">{texto.autor}</p>
         </div>
       ))}
-    </div>
+    </>
   );
 }

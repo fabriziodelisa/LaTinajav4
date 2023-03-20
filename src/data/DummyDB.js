@@ -59,10 +59,10 @@ const FragmentosDB = () => {
       hijos y toda la posteridad. Los otros, en cambio, no tienen mayor
       incentivo que la codicia, que, con frecuencia, se mitiga ante el
       peligro y cuyo ficticio ardor se desvanece con la primera herida`,
-      id: "Etienne"
+      id: "Etienne1"
     },
     {
-      autor: "José de San Martin",
+      autor: "José de San Martín",
       titulo: "General don Jose de San Martín al Ejercito de los Andes",
       texto: `Compañeros del Ejército de los Andes: Ya no queda duda de que una fuerte expedición 
       española viene a atacarnos; sin duda alguna los gallegos creen que estamos cansados 
@@ -74,27 +74,27 @@ const FragmentosDB = () => {
       demás no importa nada! La muerte es mejor que ser esclavos de los maturrangos.
       Compañeros, juremos no dejar las armas de la mano hasta ver el país enteramente libre,
       o morir con ellas como hombres de coraje.`,
-      id: "sanMartin"
+      id: "sanMartin1"
     },
     {
       autor: "Zhuangzi",
-      titulo: "",
+      titulo: "Fragmento",
       texto: `Las extremidades de los patos son cortas pero si pretendes alargarlas, será con dolor.
       Las patas de las grullas son largas pero si las acortas, será también con dolor. 
       Así lo que naturalmente es largo no necesita acortarse y lo que naturalmente es corto 
       no necesita alargarse. De esta manera no será preciso quitar penas. Querer regular todo 
       es vulnerar la naturaleza.`,
-      id: "zhuangzi"
+      id: "zhuangzi1"
     },
     {
-      autor: "Schopenhauer",
+      autor: "Arthur Schopenhauer",
       titulo: "El arte de sobrevivir",
       texto: `Lo que ocupa a todos los seres vivos y los mantiene en movimiento
       es el afán de existir. Con la existencia, sin embargo, cuando se tiene por segura,
       los hombres ya no saben qué hacer; por ello, la segunda cosa que los mantiene en movimiento
       estriba en el afán de librarse del peso de la existencia, hacer que no se note, "matar el tiempo"
       , es decir, escapar al tedio.`,
-      id: "schopenhauer"
+      id: "schopenhauer1"
     }
   ];
 

@@ -1,5 +1,5 @@
 export default function SelectNav() {
-  const TitlesOnSelect = () => {};
+  //const TitlesOnSelect = () => {};
 
   return (
     <div className="buscador">

@@ -1,4 +1,4 @@
-.parrafo {
+p {
   color: rgba(94, 25, 25);
 }
 
@@ -6,21 +6,26 @@ div h2 {
   font-size: x-large;
 }
 
-.left {
+.AlineadoIzquierdo {
   background-color: rgba(248, 231, 227, 0.7);
-  margin-right: 30vw;
+  margin-right: 25vw;
 }
 
-.left H2 {
+.AlineadoIzquierdo H2 {
   text-align: left;
 }
 
-.right {
+.AlineadoDerecho {
   background-color: rgba(248, 231, 227, 0.7);
-  border-top: 0px;
-  margin-left: 30vw;
+  margin-left: 25vw;
 }
 
-.right H2 {
+.AlineadoDerecho H2 {
   text-align: right;
+}
+
+.autor {
+  font-style: italic;
+  color: rgb(32, 3, 3);
+  font-weight: 500;
 }
