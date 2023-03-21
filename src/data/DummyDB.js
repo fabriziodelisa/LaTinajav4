@@ -16,24 +16,6 @@ const EscritosDB = () => {
               Una gota tardía cae, y como sus amigas, revienta en desconsuelo.`,
       id: "gotaTardia"
     },
-    {
-      autor: "",
-      titulo: "",
-      texto: ``,
-      id: ""
-    },
-    {
-      autor: "",
-      titulo: "",
-      texto: ``,
-      id: ""
-    },
-    {
-      autor: "",
-      titulo: "",
-      texto: ``,
-      id: ""
-    }
   ];
 
   return escritos;
@@ -116,18 +98,6 @@ const FrasesDB = () => {
               sino que siempre fue, es y será fuego eternamente vivo[...]`,
       id: "heraclito30"
     },
-    {
-      autor: "",
-      titulo: "",
-      texto: ``,
-      id: ""
-    },
-    {
-      autor: "",
-      titulo: "",
-      texto: ``,
-      id: ""
-    }
   ];
 
   return frases;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./componentes/Navbar";
 import Frases from "./paginas/Frases";
 import Fragmentos from "./paginas/Fragmentos";
@@ -20,7 +20,7 @@ export default function App() {
           <Route path="/frases" element={<Frases />} />
           <Route path="/fragmentos" element={<Fragmentos />} />
           <Route path="/escritos" element={<Escritos />} />
-          <Route path="*" element={<Frases />} />
+          <Route path="*" element={<Navigate to="/fragmentos" replace="true" />}/>
         </Routes>
       </section>
       <Footer />

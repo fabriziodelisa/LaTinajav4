@@ -8,13 +8,13 @@ export default function Navbar() {
     <nav>
       <ul class="nav-links">
         <li class="nav-item">
-          <Link to="/escritos">ESCRITOS</Link>
-        </li>
-        <li class="nav-item">
           <Link to="/fragmentos">FRAGMENTOS</Link>
         </li>
         <li class="nav-item">
-          <Link to="/frases">Frases</Link>
+          <Link to="/frases">FRASES</Link>
+        </li>
+        <li class="nav-item">
+          <Link to="/escritos">ESCRITOS</Link>
         </li>
       </ul>
       <SelectNav />
