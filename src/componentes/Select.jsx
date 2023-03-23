@@ -3,16 +3,18 @@ export default function SelectNav() {
 
   return (
     <div className="buscador">
-      <select className="item-form input" name="selector" id="textos">
-        <option value="" selected="selected" disabled="disabled">
-          ----- Buscar texto -----{" "}
-        </option>
-        <option value="la-botie">La Botie</option>
-        <option value="san-martin">San Martin</option>
-        <option value="zhuangzi">Zhuangzi</option>
-        <option value="frag-30">Fragmento 30</option>
-        <option value="frag-18">Fragmento 18</option>
-      </select>
+      <div className="selector">
+        <select className="item-form input" name="selector" id="textos">
+          <option value="" selected="selected" disabled="disabled">
+            ----- Buscar texto -----{" "}
+          </option>
+          <option value="la-botie">La Botie</option>
+          <option value="san-martin">San Martin</option>
+          <option value="zhuangzi">Zhuangzi</option>
+          <option value="frag-30">Fragmento 30</option>
+          <option value="frag-18">Fragmento 18</option>
+        </select>
+      </div>
       <button id="button" onClick="goTo()">
         IR
       </button>

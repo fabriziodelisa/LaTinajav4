@@ -16,8 +16,8 @@ export default function Navbar() {
         <li class="nav-item">
           <Link to="/escritos">ESCRITOS</Link>
         </li>
+        {/* <SelectNav /> */}
       </ul>
-      <SelectNav />
     </nav>
   );
 }
